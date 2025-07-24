@@ -4,7 +4,7 @@ body {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  margin: 50px 10%;
+  /* margin: 50px 10%; */
 }
 
 /* shared style */
@@ -26,6 +26,9 @@ body {
 }
 
 /* header style */
+header{
+  margin: 50px 10%;
+}
 /* nav style */
 nav{
     display: flex;
@@ -56,7 +59,11 @@ nav a{
     font-size: 3rem;
     color: #000;
 }
+/* main style */
 /* plants style */
+.plants{
+  margin: 50px 10%;
+}
 .plants-text-area{
     text-align: center;
     width: 70%;
@@ -96,6 +103,7 @@ nav a{
     display: flex;
     gap: 50px;
     margin-top: 150px;
+    margin:10%;
 }
 .lover-img-area{
     width: 50%;
@@ -119,5 +127,92 @@ nav a{
 .lover-text-area li{
     margin-top: 20px;
 }
+/* deals style */
+.deals{
+    margin: 0 10%;
+}
+.deals-text-area{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.deals-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.deals-img-area{
+    margin-top: 100px;
+}
+.deals-img-area h3{
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.deals-img-area a{
+    color: #fff;
+}
+.deals-img-area{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+#deal-bg-1{
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
+#deal-bg-2{
+    background-image: url(assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+#deal-bg-3{
+    background-image: url(assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
 
-
+#deal-bg-3 h3{
+    margin-top: 120px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+/* join style */
+.join{
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+    height: 300px;
+}
+.join-title{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.join input{
+    padding: 20px;
+    width: 500px;
+}
