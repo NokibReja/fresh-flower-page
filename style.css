@@ -97,11 +97,14 @@ nav a{
     gap: 50px;
     margin-top: 150px;
 }
+.lover-img-area{
+    width: 50%;
+}
 .badge-img{
     width: 200px;
-    position: relative;
+    transform: translate(20rem, -35rem);
 }
-.lover-bg{
+.lover-bg-img{
     width: 90%;
 }
 .lover-text-area{
