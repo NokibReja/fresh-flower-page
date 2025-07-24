@@ -73,7 +73,7 @@ nav a{
     font-size: 2.5rem;
     font-weight: 800;
 }
-/*  */
+/* plants card style */
 .plants-card-area{
     display: grid;
     grid-template-columns: repeat(4 ,auto);
@@ -102,8 +102,7 @@ nav a{
 .lover-content{
     display: flex;
     gap: 50px;
-    margin-top: 150px;
-    margin:10%;
+    margin: 150px 10% 0;
 }
 .lover-img-area{
     width: 50%;
@@ -216,3 +215,103 @@ nav a{
     padding: 20px;
     width: 500px;
 }
+/* footer style */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10%;
+}
+.text-content{
+    width: 30%;
+}
+.links{
+    display: flex;
+}
+.links li{
+    list-style: none;
+    margin: 20px;
+    color: rgba(107, 114, 128, 1);
+}
+.icons img{
+    margin: 10px;
+}
+
+/* responsive for mobile device */
+@media screen and  (max-width: 576px) {
+    .nav-li{
+        display: none;
+    }
+    header{
+        margin: 10px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .plants{
+        margin: 10px;
+    }
+    .plants-card-area{
+        grid-template-columns: repeat(2 ,auto);
+        gap: 10px;
+    }
+    .lover-content{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 150px;
+    }
+    .lover-img-area{
+        width: 100%;
+    }
+    .badge-img{
+        display: none;
+    }
+    .lover-text-area{
+        width: 100%;
+    }
+    .deals{
+        margin: 10px;
+    }
+    .deals-img-area{
+        grid-template-columns: repeat(1, auto);
+    }
+    #deal-bg-1, #deal-bg-2 ,#deal-bg-3{
+        width: 400px;
+        height: 200px;
+    }
+    .deal-img-card{
+        margin-top: 20px;
+    }
+    #deal-bg-3 h3{
+        margin-top: 50px;
+        font-size: 1rem;
+    }
+    .join-title{
+        font-size: 1.5rem;
+    }
+    .join input{
+        width: 200px;
+    }
+    .join .btn-primary{
+        padding: 20px 20px;
+        font-size: 1rem;
+    }
+    footer{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .text-content{
+        width: 100%;
+        margin: 0;
+    }
+    .links{
+        flex-direction: column;
+    }
+    .links li{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    footer ul{
+        margin: 0;
+    }
+} 
